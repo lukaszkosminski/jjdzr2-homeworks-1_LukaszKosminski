@@ -1,6 +1,9 @@
 import java.util.Scanner;
-public class calc {
+
+public class Calc {
+
     public static void main(String[] args) {
+
         System.out.println("enter first number: ");
         Scanner scanner = new Scanner(System.in);
         double value1 = scanner.nextInt();
@@ -37,8 +40,6 @@ public class calc {
             default: {
                 System.out.println("invalid math symbol!");
             }
-
         }
-
     }
 }
