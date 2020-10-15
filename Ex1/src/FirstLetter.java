@@ -1,20 +1,15 @@
 import java.util.Scanner;
-public class firstLetter {
+
+public class FirstLetter{
 
     public static void main(String[] args){
         System.out.println("parametr: ");
-        char firstLetter = firstLetter();
-
-
+        char firstLetter = loadWord().charAt(0);
         System.out.println("firstLetter : " + firstLetter);
-
-
     }
-     static char firstLetter(){
-
+    static String loadWord(){
         Scanner scanner = new Scanner(System.in);
-        String text = scanner.nextLine();
-        char firstLetter = text.charAt(0);
-        return firstLetter;
+        String textFromLoadWord = scanner.nextLine();
+        return textFromLoadWord;
     }
 }
