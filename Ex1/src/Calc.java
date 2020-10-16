@@ -34,7 +34,7 @@ public class Calc {
             }
                 
             case "/": {
-                if (value2 ==0) {
+                if (value2 == 0) {
                     System.out.println("don't divide by zero");
                     break;
                 }
