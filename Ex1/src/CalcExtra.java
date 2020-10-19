@@ -34,19 +34,12 @@ public class CalcExtra {
                 }else{
                 result = value1 / value2;
                 break;
-            }}
-
+                }
+            }
             default: {
                 System.out.println("invalid math symbol!");
             }
-
-
-
         }
         return result;
-
-
-
     }
-
 }
