@@ -28,6 +28,7 @@ public class CalcExtra {
                 result = value1 * value2;
                 break;
             }
+            //zle dziala, przy dzieleniu przez 0 metoda zwraca wynik
             case "/": {
                 if (value2 == 0) {
                     System.out.println("don't divide by zero, podaj prawidlową wartość");
@@ -36,6 +37,7 @@ public class CalcExtra {
                 break;
                 }
             }
+            //zle działa, przy invalid symbol zwraca wynik
             default: {
                 System.out.println("invalid math symbol!");
             }
