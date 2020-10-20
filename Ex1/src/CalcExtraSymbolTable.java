@@ -6,10 +6,13 @@ public class CalcExtraSymbolTable {
     public static void main(String[] args) {
         System.out.println("enter first number: ");
         Scanner scanner = new Scanner(System.in);
+
         double value1 = scanner.nextInt();
         System.out.println("enter second number: ");
+
         double value2 = scanner.nextInt();
         System.out.println("enter a math symbol ( +, -, *, / ): ");
+        
         String symbol = scanner.next();
         String[] symbolTable = {"+", "-", "*", "/"};
 
