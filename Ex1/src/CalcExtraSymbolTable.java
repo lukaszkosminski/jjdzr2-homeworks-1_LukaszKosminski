@@ -12,7 +12,7 @@ public class CalcExtraSymbolTable {
 
         double value2 = scanner.nextInt();
         System.out.println("enter a math symbol ( +, -, *, / ): ");
-        
+
         String symbol = scanner.next();
         String[] symbolTable = {"+", "-", "*", "/"};
 
