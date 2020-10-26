@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+import java.util.HashSet;
 
 public class Lotto{
     public static void main(String args[]) {
@@ -15,10 +16,12 @@ public class Lotto{
 
         int liczba = lotto.nextInt(zakres)+1;
         System.out.println("wylosowana liczba " + liczba);
-        int [] myTable = new int[ileLiczb+1];
+       // int [] myTable = new int[ileLiczb+1];
+
+       // HashSet<String>
 
 
-       //do {
+
 
       // }
 
